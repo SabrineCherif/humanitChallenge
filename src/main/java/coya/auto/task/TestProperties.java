@@ -43,7 +43,7 @@ public class TestProperties {
         return getINSTANCE().properties.getProperty(COYACARE_PAGE_KEY);
     }
     
-    public static String getHomePageEnUrl() {
+	public static String getHomePageEnUrl() {
         return getINSTANCE().properties.getProperty(HOMEPAGE_EN_KEY);
     }
 }
